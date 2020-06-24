@@ -1,0 +1,91 @@
+/* color  */
+$color1: #773344;
+$color2: #acf39d;
+$color3: #e85f5c;
+$color4: #9cfffa;
+$color5: #084b83;
+
+// general 
+body {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $color1;
+}
+
+/* bg color  */
+.bg-color1 {
+    background-color: $color1;
+}
+.bg-color2 {
+    background-color: $color2;
+}
+.bg-color3 {
+    background-color: $color3;
+}
+.bg-color4 {
+    background-color: $color4;
+}
+.bg-color5 {
+    background-color: $color5;
+}
+// fnt color 
+.fnt-color1 {
+    color: $color1;
+}
+.fnt-color2 {
+    color: $color2;
+}
+.fnt-color3 {
+    color: $color3;
+}
+.fnt-color4 {
+    color: $color4;
+}
+.fnt-color5 {
+    color: $color5;
+}
+
+// height 
+.height-100 {
+    height: 100vh;
+}
+
+// navbar 
+.navbar-logo {
+    font-size: 24px;
+    font-weight: 800;
+    border-bottom: 5px solid $color3;
+    line-height: 0.5;
+    &:hover {
+        text-decoration: none;
+        color: $color1;
+    }
+}
+
+//hero
+.welcome {
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 0.8;
+}
+
+//silabus
+.silabus-title {
+    font-weight: 600;
+    line-height: 0.6;
+}
+.title-underline {
+    width: 150px;
+    height: 10px;
+    background-color: $color3;
+}
+
+.judul-materi {
+    font-size: 30px;
+    line-height: 0.5;
+    font-weight: 600;
+}
+.link-materi {
+    font-size: 30px / 1.618;
+}

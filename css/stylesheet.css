@@ -1,0 +1,92 @@
+/* color  */
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #773344;
+}
+
+/* bg color  */
+.bg-color1 {
+  background-color: #773344;
+}
+
+.bg-color2 {
+  background-color: #acf39d;
+}
+
+.bg-color3 {
+  background-color: #e85f5c;
+}
+
+.bg-color4 {
+  background-color: #9cfffa;
+}
+
+.bg-color5 {
+  background-color: #084b83;
+}
+
+.fnt-color1 {
+  color: #773344;
+}
+
+.fnt-color2 {
+  color: #acf39d;
+}
+
+.fnt-color3 {
+  color: #e85f5c;
+}
+
+.fnt-color4 {
+  color: #9cfffa;
+}
+
+.fnt-color5 {
+  color: #084b83;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 800;
+  border-bottom: 5px solid #e85f5c;
+  line-height: 0.5;
+}
+
+.navbar-logo:hover {
+  text-decoration: none;
+  color: #773344;
+}
+
+.welcome {
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 0.8;
+}
+
+.silabus-title {
+  font-weight: 600;
+  line-height: 0.6;
+}
+
+.title-underline {
+  width: 150px;
+  height: 10px;
+  background-color: #e85f5c;
+}
+
+.judul-materi {
+  font-size: 30px;
+  line-height: 0.5;
+  font-weight: 600;
+}
+
+.link-materi {
+  font-size: 30px / 1.618;
+}
+/*# sourceMappingURL=stylesheet.css.map */

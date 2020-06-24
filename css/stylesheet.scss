@@ -10,7 +10,7 @@ body {
     font-family: 'Mukta', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: $color1;
+    color: $color4;
 }
 
 /* bg color  */
@@ -53,7 +53,7 @@ body {
 
 // navbar 
 .navbar-logo {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
     border-bottom: 5px solid $color3;
     line-height: 0.5;
@@ -62,21 +62,39 @@ body {
         color: $color1;
     }
 }
+.curriculum-btn {
+    font-size: 19px;
+}
 
 //hero
 .welcome {
     font-size: 100px;
     font-weight: 800;
-    line-height: 0.8;
+    line-height: 0.5;
+    width: fit-content;
+    border-bottom: 10px solid $color3;
+}
+.cta-btn {
+    border: 2px solid $color2;
+    color: $color2;
+    font-size: 24px;
+    border-radius: 10px;
+    &:hover {
+        background-color: $color2;
+        border: 2px solid $color2;
+        color: $color3;
+    }
 }
 
 //silabus
 .silabus-title {
     font-weight: 600;
-    line-height: 0.6;
+    line-height: 0.4;
+    color: $color2;
 }
 .title-underline {
-    width: 150px;
+    margin: -5px;
+    width: 220px;
     height: 10px;
     background-color: $color3;
 }
@@ -86,6 +104,16 @@ body {
     line-height: 0.5;
     font-weight: 600;
 }
+
 .link-materi {
-    font-size: 30px / 1.618;
+    color: $color4;
+    font-weight: 500;
+    &:hover {
+        color: $color4;
+    }
+}
+
+.curriculum-container {
+    box-shadow: 0px 2px 16px rgba(0,0,0,0.4);
+    border-radius: 20px;
 }

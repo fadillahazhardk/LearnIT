@@ -3,7 +3,7 @@ body {
   font-family: 'Mukta', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: #773344;
+  color: #9cfffa;
 }
 
 /* bg color  */
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-logo {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 800;
   border-bottom: 5px solid #e85f5c;
   line-height: 0.5;
@@ -63,19 +63,42 @@ body {
   color: #773344;
 }
 
+.curriculum-btn {
+  font-size: 19px;
+}
+
 .welcome {
   font-size: 100px;
   font-weight: 800;
-  line-height: 0.8;
+  line-height: 0.5;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 10px solid #e85f5c;
+}
+
+.cta-btn {
+  border: 2px solid #acf39d;
+  color: #acf39d;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.cta-btn:hover {
+  background-color: #acf39d;
+  border: 2px solid #acf39d;
+  color: #e85f5c;
 }
 
 .silabus-title {
   font-weight: 600;
-  line-height: 0.6;
+  line-height: 0.4;
+  color: #acf39d;
 }
 
 .title-underline {
-  width: 150px;
+  margin: -5px;
+  width: 220px;
   height: 10px;
   background-color: #e85f5c;
 }
@@ -87,6 +110,17 @@ body {
 }
 
 .link-materi {
-  font-size: 30px / 1.618;
+  color: #9cfffa;
+  font-weight: 500;
+}
+
+.link-materi:hover {
+  color: #9cfffa;
+}
+
+.curriculum-container {
+  -webkit-box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
 }
 /*# sourceMappingURL=stylesheet.css.map */

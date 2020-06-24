@@ -14,17 +14,17 @@
     <!-- custom css -->
     <link href="./css/stylesheet.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-dark">
 <!-- navigation bar  -->
 <nav class="navbar navbar-expand-lg navbar-light bg-color2 fixed-top">
     <div class="container">
-        <a class="fnt-color1 navbar-logo" href="#">LearnIT!</a>
+        <a class="fnt-color1 navbar-logo mr-3" href="#">LearnIT!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon fnt-color1"></span>
         </button>
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto my-3">
+            <ul class="navbar-nav mr-auto my-3">
                 <li class="nav-item">
                 <a class="nav-link  d-inline curriculum-btn" href="#">Curriculum <i class="fas fa-arrow-circle-down"></i> </a>
                 </li> 
@@ -60,9 +60,9 @@
     <div class="container">
         <div class="row height-100 align-items-center text-center">
             <div class="col">
-                <h1 class="fnt-color2 display-4 welcome">Welcome!</h1>
+                <h1 class="fnt-color2 display-4 welcome mx-auto">Welcome!</h1>
                 <p class="fnt-color2 lead welcome-small">Lets we learn web development, Departemen Kemasyarakatan Gamais !</p>
-                <a href="#" class="btn btn-outline-success fnt-color2">Start Learning !</a>
+                <a href="#" class="btn btn-outline-success cta-btn fnt-color2">Start Learning !</a>
             </div>
         </div>
     </div>
@@ -71,7 +71,7 @@
 
 <!-- Curriculum  -->
 <section id="curriculum">
-    <div class="container py-5">
+    <div class="container py-5 curriculum-container my-5">
         <!-- curriculum title  -->
         <div class="row">
             <div class="col text-center">
@@ -88,14 +88,46 @@
             </div>
             <div class="col">
                 <ul>
-                    <li><a href="#" class="btn lead fnt-color1 link-materi">Internet</a></li>
-                    <li><a href="#" class="btn lead fnt-color1">World Wide Web</a></li>
-                    <li><a href="#" class="btn lead fnt-color1">Browser</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Internet</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">World Wide Web</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Browser</a></li>
                 </ul>
             </div>
+            
         </div>
         <!-- end of what is web  -->
 
+        <!-- Pendahuluan -->
+        <div class="row pt-5" id="web-curriculum">
+            <div class="col-12">
+                <h3 class=" bg-color2 p-3"><a href="" class="btn judul-materi">Bagaimana membuat website?</a></h3>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Web Development</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">UI/UX</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Front End Development</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Back End Development</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- end of Pendahuluan  -->
+
+        <div class="row py-5" id="web-curriculum">
+            <div class="col-12">
+                <h3 class=" bg-color2 p-3"><a href="" class="btn judul-materi">Belajar HTML</a></h3>
+            </div>
+            <div class="col">
+                <ul>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Introduction</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Semantic</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Table</a></li>
+                    <li><a href="#" class="lead fnt-color4 link-materi">Form</a></li>
+                </ul>
+            </div>
+            
+        </div>
         <!-- html curriculum  -->
 
         <!-- end of html curriculum  -->
